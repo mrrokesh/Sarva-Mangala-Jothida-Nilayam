@@ -1,0 +1,1406 @@
+{
+  "profile": {
+    "introTa": "முனைவர். இளங்கோ திருநாவுக்கரசு, சேலத்தில் சர்வ மங்கலா ஜோதிட நிலையத்தை நடத்துகிறார். ஜாதக ஆய்வு, திருமணப் பொருத்தம், தொழில் மற்றும் குடும்ப ஆலோசனை, முகூர்த்தத் தேர்வு ஆகியவற்றில் பாரம்பரிய வழிகாட்டுதல் வழங்குகிறார். அண்ணாமலைப் பல்கலைக்கழகத்துடன் இணைந்த M.A. Astrology பயிற்சி, ஜோதிட மாநாட்டுப் பங்கேற்பு மற்றும் விருதுகள் அவரது பயணத்தின் பகுதியாக உள்ளன.",
+    "introEn": "Dr. Elangho Thirunavukkarasu leads Sarva Mangala Jothida Nilayam in Salem. He offers traditional guidance in horoscope study, marriage matching, career and family consultation, and muhurtham selection. His journey includes M.A. Astrology studies associated with Annamalai University, conference participation and recognitions from astrology gatherings.",
+    "instagram": "",
+    "facebook": "",
+    "youtube": "",
+    "announcementTa": "",
+    "announcementEn": ""
+  },
+  "rasipalan": {
+    "mesham": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் மேஷம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Aries. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் மேஷம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Aries may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "rishabam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் ரிஷபம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Taurus. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் ரிஷபம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Taurus may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "mithunam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் மிதுனம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Gemini. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் மிதுனம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Gemini may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "kadagam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் கடகம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Cancer. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் கடகம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Cancer may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "simmam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் சிம்மம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Leo. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் சிம்மம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Leo may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "kanni": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் கன்னி ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Virgo. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் கன்னி ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Virgo may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "thulam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் துலாம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Libra. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் துலாம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Libra may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "viruchigam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் விருச்சிகம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Scorpio. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் விருச்சிகம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Scorpio may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "dhanusu": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் தனுசு ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Sagittarius. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் தனுசு ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Sagittarius may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "magaram": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் மகரம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Capricorn. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் மகரம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Capricorn may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "kumbam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் கும்பம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Aquarius. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் கும்பம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Aquarius may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    },
+    "meenam": {
+      "daily": {
+        "general": {
+          "ta": "இன்று பொறுமையுடன் முடிவு எடுங்கள். பாரம்பரிய ஜோதிட வழிகாட்டுதல் மட்டுமே இது; உறுதியான முடிவு அல்ல.",
+          "en": "Take decisions with patience today. This is traditional astrological guidance, not a guaranteed outcome."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "weekly": {
+        "general": {
+          "ta": "இந்த வாரம் மீனம் ராசிக்கு பொறுப்புடன் திட்டமிடுதல் நலம். இது பொது வழிகாட்டுதல் மட்டுமே.",
+          "en": "This week favours measured planning for Pisces. General guidance only."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      },
+      "monthly": {
+        "general": {
+          "ta": "இந்த மாதம் மீனம் ராசிக்கு குடும்பம் மற்றும் தொழிலில் சமநிலை காக்கவும்.",
+          "en": "This month, Pisces may benefit from balance between family and work."
+        },
+        "career": {
+          "ta": "பணி மற்றும் வியாபாரத்தில் தெளிவான உரையாடல் உதவும். புதிய ஒப்பந்தங்களை அவசரமாக முடிக்க வேண்டாம்.",
+          "en": "Clear conversation helps at work and in business. Avoid rushing new agreements."
+        },
+        "finance": {
+          "ta": "செலவுகளை கணக்கிட்டு நடந்து கொள்ளுங்கள். பெரிய முதலீட்டு முடிவுகளுக்கு கூடுதல் ஆலோசனை பெறுங்கள்.",
+          "en": "Keep spending measured. Seek further advice before large investment decisions."
+        },
+        "family": {
+          "ta": "குடும்ப உறவுகளில் இனிமையான சொற்கள் அமைதியைக் கொணரும்.",
+          "en": "Gentle words at home can restore calm."
+        },
+        "marriage": {
+          "ta": "உறவுகளில் புரிதல் முக்கியம். தம்பதிகள் பேசி முடிவு செய்வது நலம்.",
+          "en": "Understanding matters in relationships. Discuss before deciding."
+        },
+        "health": {
+          "ta": "ஓய்வு, நீர் அருந்துதல் மற்றும் மருத்துவ ஆலோசனையை புறக்கணிக்காதீர்கள்.",
+          "en": "Rest, hydration and professional medical advice remain essential."
+        },
+        "luckyColor": {
+          "ta": "பொன் மஞ்சள் / வெண்ணிறம்",
+          "en": "Gold / ivory"
+        },
+        "luckyNumber": {
+          "ta": "3, 9",
+          "en": "3, 9"
+        },
+        "auspiciousTime": {
+          "ta": "காலை 6:30 – 8:00",
+          "en": "6:30 – 8:00 AM"
+        }
+      }
+    }
+  },
+  "testimonialsPublished": false
+}

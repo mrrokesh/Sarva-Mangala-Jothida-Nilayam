@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+.env
+.env.local
+*.log
+.DS_Store
+content/consultations.json
+content/admin-session.json
+tsconfig.tsbuildinfo
+
+# Original WhatsApp dumps (copies live under public/)
+/awards/
+/logo/
+/video/
