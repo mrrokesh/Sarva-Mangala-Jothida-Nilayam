@@ -6,25 +6,25 @@ const config: Config = {
     extend: {
       colors: {
         cyan: {
-          DEFAULT: "#2EE6E0",
-          deep: "#0BB8C4",
-          mist: "#A8F4F0",
+          DEFAULT: "#C45C26",
+          deep: "#A44A1C",
+          mist: "#F3D4B8",
         },
         royal: {
-          DEFAULT: "#0B2A6B",
-          mid: "#123A8C",
-          night: "#061433",
+          DEFAULT: "#7A3550",
+          mid: "#9A4A66",
+          night: "#F4EBE0",
         },
         gold: {
-          DEFAULT: "#D4AF37",
-          bright: "#F4D06F",
-          temple: "#C9A227",
-          brass: "#B8860B",
+          DEFAULT: "#B8892A",
+          bright: "#8B4A16",
+          temple: "#A67C28",
+          brass: "#8A6420",
         },
-        kumkum: "#B11226",
-        ivory: "#F7F1E3",
-        cream: "#EFE6D2",
-        ink: "#070B14",
+        kumkum: "#C43C4E",
+        ivory: "#3D2A1C",
+        cream: "#FFF8EE",
+        ink: "#FFFCF8",
       },
       fontFamily: {
         tamil: ["var(--font-tamil)", "Noto Sans Tamil", "sans-serif"],
@@ -34,12 +34,12 @@ const config: Config = {
         body: ["var(--font-inter)", "Inter", "sans-serif"],
       },
       boxShadow: {
-        gold: "0 0 40px rgba(212, 175, 55, 0.28)",
-        glass: "0 20px 60px rgba(6, 20, 51, 0.45)",
+        gold: "0 0 36px rgba(184, 137, 42, 0.22)",
+        glass: "0 18px 50px rgba(61, 42, 28, 0.12)",
       },
       backgroundImage: {
         "temple-radial":
-          "radial-gradient(ellipse at center, rgba(18,58,140,0.55) 0%, rgba(6,20,51,0.92) 55%, #070B14 100%)",
+          "radial-gradient(ellipse at center, rgba(244,235,224,0.9) 0%, #FFFCF8 70%)",
       },
     },
   },

@@ -27,6 +27,22 @@ export async function POST(req: NextRequest) {
     consultationType: String(body.consultationType || ""),
     consultationMode: String(body.consultationMode || ""),
     message: String(body.message || ""),
+    matching: body.matching
+      ? {
+          bride: {
+            name: String(body.matching?.bride?.name || ""),
+            dob: String(body.matching?.bride?.dob || ""),
+            tob: String(body.matching?.bride?.tob || ""),
+            pob: String(body.matching?.bride?.pob || ""),
+          },
+          groom: {
+            name: String(body.matching?.groom?.name || ""),
+            dob: String(body.matching?.groom?.dob || ""),
+            tob: String(body.matching?.groom?.tob || ""),
+            pob: String(body.matching?.groom?.pob || ""),
+          },
+        }
+      : undefined,
   };
 
   const vibeo = await sendToVibeo(row).catch((e) => ({ ok: false, skipped: false, reason: String(e) }));

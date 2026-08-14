@@ -1,6 +1,6 @@
 import { RASIS } from "./rasis";
 
-export type PeriodType = "daily" | "weekly" | "monthly";
+export type PeriodType = "daily" | "weekly" | "monthly" | "yearly";
 
 export type RasipalanEntry = {
   general: { ta: string; en: string };
@@ -67,7 +67,29 @@ export function defaultRasipalanMap() {
           en: `This month, ${r.latin} may benefit from balance between family and work.`,
         },
       },
+      yearly: {
+        ...clone(seed),
+        general: {
+          ta: `இந்த ஆண்டு ${r.ta} ராசிக்கு பொறுமையும் சமநிலையும் முக்கியம். இது பொது வழிகாட்டுதல் மட்டுமே.`,
+          en: `This year, ${r.latin} benefits from patience and balance. General guidance only.`,
+        },
+      },
     };
   }
   return map;
 }
+
+export function rasiToApiSign(rasiId: string) {
+  return RASIS.find((r) => r.id === rasiId)?.latin.toLowerCase() || "aries";
+}
+
+export const PERIODS: PeriodType[] = ["daily", "weekly", "monthly", "yearly"];
+
+export type LiveRasipalan = {
+  live: boolean;
+  date: string;
+  period: PeriodType;
+  sign: string;
+  rasi: string;
+  entry: RasipalanEntry;
+};

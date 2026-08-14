@@ -11,7 +11,7 @@ export function PlanetRow() {
 
   return (
     <div>
-      <div className="flex gap-4 overflow-x-auto pb-4">
+      <div className="-mx-4 flex gap-4 overflow-x-auto px-4 pb-4 sm:mx-0 sm:px-0">
         {PLANETS.map((p, i) => (
           <button
             key={p.id}

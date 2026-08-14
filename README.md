@@ -1,8 +1,8 @@
 # சர்வ மங்கலா ஜோதிட நிலையம்
 
-**Sarva Mangala Jothida Nilayam** is a bilingual (தமிழ் / English) website for astrologer **Dr. Elangho Thirunavukkarasu** in Salem, Tamil Nadu.
+**Sarva Mangala Jothida Nilayam** is a bilingual (தமிழ் default / English) website for astrologer **Dr. Elangho Thirunavukkarasu** in Salem, Tamil Nadu.
 
-Live local run: `http://localhost:3000`
+Local run: [http://localhost:3000](http://localhost:3000)
 
 Repository: [mrrokesh/Sarva-Mangala-Jothida-Nilayam](https://github.com/mrrokesh/Sarva-Mangala-Jothida-Nilayam)
 
@@ -10,15 +10,18 @@ Repository: [mrrokesh/Sarva-Mangala-Jothida-Nilayam](https://github.com/mrrokesh
 
 ## About
 
-The site presents traditional Tamil Vedic astrology through a modern, cinematic web experience:
+The site presents traditional Tamil Vedic astrology as a calm temple-style consultation studio:
 
-- Welcome profile card and golden zodiac loader
-- Hero with temple elephants, rotating rasi wheel, and astrologer portrait
-- About timeline built from supplied certificates, plaques, and conference photographs
-- 12 Rasis, 27 Nakshatras, Nava Grahas, and a South Indian horoscope chart
-- Services, rasipalan (daily / weekly / monthly), awards, gallery, and videos
+- Welcome profile card and golden zodiac loader (Om in the rasi wheel)
+- Hero with rotating rasi ring and ॐ centre
+- About timeline from supplied certificates, plaques, and conference photographs
+- 12 Rasis, 27 Nakshatras, Nava Grahas
+- Live daily / weekly / monthly / yearly rasipalan
+- Daily Salem panchangam (tithi, nakshatra, rahu kalam, and related timings)
+- Two-person marriage matching request (10 poruthams explained; reading by the astrologer)
+- Services, gallery, FAQ, privacy, terms, and disclaimer
 - Consultation booking with Vibeo messaging + WhatsApp fallback
-- Admin CMS for rasipalan, profile text, and social links
+- Admin CMS for profile text, social links, and rasipalan fallback copy
 
 Display name:
 
@@ -39,6 +42,8 @@ Certificates and awards are shown as biographical records. The site does **not**
 | Motion / 3D | Framer Motion, Three.js, React Three Fiber, Drei |
 | CMS | File-based admin at `/admin` (`content/site.json`) |
 | Enquiries | `/api/consultation` → JSON log + Vibeo webhook + WhatsApp |
+| Live rasipalan | `/api/rasipalan` → [Free Horoscope API](https://www.freehoroscopeapi.com/) (no key), Tamil via MyMemory |
+| Panchangam | `/api/panchangam` → sidereal tithi/nakshatra for Salem + sunrise/sunset |
 
 ---
 
@@ -46,18 +51,46 @@ Certificates and awards are shown as biographical records. The site does **not**
 
 | Path | Content |
 | --- | --- |
-| `/` | Home — loader, welcome card, hero, services preview |
-| `/about` | Biography and credential timeline |
+| `/` | Home — loader, welcome card, hero, panchangam, rasis, services |
+| `/about` | Biography, credentials, and photograph gallery |
 | `/services` | Horoscope, matching, career, vastu, and related guidance |
-| `/rasis` | Interactive 12 Rasi wheel |
-| `/nakshatras` | 27 Nakshatra constellation map |
-| `/rasipalan` | Daily, weekly, and monthly readings |
-| `/awards` | Awards and conference recognition |
-| `/gallery` | Filtered photograph gallery |
-| `/videos` | Astrology explanation videos |
-| `/consultation` | Booking form |
+| `/rasipalan` | Today’s panchangam, live rasipalan, 12 rasis, 27 nakshatras |
+| `/matching` | Bride + groom birth details and the ten poruthams |
+| `/consultation` | Booking form and how the process works |
 | `/contact` | Address, phone, WhatsApp, Vibeo, maps, social |
+| `/faq` | Booking, matching, panchangam, and disclaimer questions |
 | `/admin` | CMS (not indexed) |
+
+`/rasis` and `/nakshatras` redirect into `/rasipalan`.
+
+---
+
+## Live rasipalan
+
+Public readings are fetched live (not typed into Admin each day):
+
+| Period | Refresh |
+| --- | --- |
+| Daily | New text after midnight IST |
+| Weekly | New text each week |
+| Monthly | New text each month |
+| Yearly | Year outlook built from the live monthly + weekly feed (that API has no yearly endpoint) |
+
+Lucky colour, number, and muhurtham rotate with each period. If the live feed is down, Admin CMS copy is used as fallback.
+
+This is general sun-sign guidance, not a personal jathagam.
+
+---
+
+## Panchangam
+
+`/api/panchangam` returns Salem (11.66°N, 78.15°E) timings for today: weekday, tithi, nakshatra + pada, yoga, karana, moon rasi, sunrise, sunset, rahu kalam, yamagandam, and gulikai. Confirm muhurtham with the astrologer before important events.
+
+---
+
+## Marriage matching
+
+`/matching` collects contact details plus **bride and groom** name, date, time, and place of birth. The request is stored like any consultation and forwarded to Vibeo/WhatsApp. The page explains the ten traditional poruthams; it does **not** auto-score compatibility.
 
 ---
 
@@ -105,8 +138,8 @@ Empty social URLs stay inactive so the site never invents profiles. Add them lat
 3. Update:
    - Tamil / English intro
    - Instagram, Facebook, YouTube URLs
-   - Daily, weekly, and monthly rasipalan for each rasi
-4. Review consultation requests (also forwarded to Vibeo when the webhook is set)
+   - Rasipalan fallback copy (daily / weekly / monthly / yearly) used only if the live API fails
+4. Review consultation and matching requests (also forwarded to Vibeo when the webhook is set)
 
 Do not commit `.env.local` or `content/consultations.json`.
 
@@ -120,7 +153,7 @@ Form posts go to `/api/consultation`, which:
 2. POSTs a formatted message to `VIBEO_WEBHOOK_URL` (MR ROKESH / Vibeo)
 3. Returns a Vibeo deep link and a WhatsApp fallback
 
-Until the webhook is configured, enquiries still appear in Admin. Visitors can continue in the [Vibeo Android app](https://play.google.com/store/apps/details?id=com.mr_rokeshchat.com).
+Matching requests include both charts in the same message. Until the webhook is configured, enquiries still appear in Admin. Visitors can continue in the [Vibeo Android app](https://play.google.com/store/apps/details?id=com.mr_rokeshchat.com).
 
 ---
 
@@ -140,7 +173,7 @@ Phone: **99766 48444** · **73732 73273**
 
 இத்தளத்தில் வழங்கப்படும் ஜோதிட தகவல்கள் மற்றும் ஆலோசனைகள் பாரம்பரிய ஜோதிடக் கோட்பாடுகளின் அடிப்படையிலான வழிகாட்டுதலுக்காக மட்டுமே. மருத்துவம், சட்டம், நிதி அல்லது பிற தொழில்முறை ஆலோசனைகளுக்கு மாற்றாக கருதப்படக் கூடாது.
 
-Astrological information and consultations provided through this website are intended for guidance based on traditional astrological practices and should not be treated as a substitute for professional medical, legal, financial or other specialist advice.
+Astrological information and consultations provided through this website are intended for guidance based on traditional astrological practices and should not be treated as a substitute for professional medical, legal, or financial advice.
 
 ---
 

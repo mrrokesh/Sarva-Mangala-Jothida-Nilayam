@@ -5,7 +5,7 @@ import { NAKSHATRAS, type Nakshatra } from "@/lib/nakshatras";
 import { RASIS } from "@/lib/rasis";
 import { useLang } from "@/context/LanguageContext";
 
-export function NakshatraMap() {
+export function NakshatraMap({ highlightRasi }: { highlightRasi?: string }) {
   const { isTa, t } = useLang();
   const [active, setActive] = useState<Nakshatra | null>(null);
   const points = useMemo(
@@ -19,14 +19,16 @@ export function NakshatraMap() {
   );
 
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
-      <div className="relative aspect-square overflow-hidden rounded-full border border-gold/30 bg-royal-night/80">
+    <div className="grid min-w-0 gap-6 lg:grid-cols-2">
+      <div className="relative mx-auto aspect-square w-full max-w-md overflow-hidden rounded-full border border-gold/30 bg-royal-night/80 lg:max-w-none">
         <div className="absolute inset-8 rounded-full border border-gold/20" />
         <div className="absolute inset-16 rounded-full border border-cyan/20" />
         {points.map(({ n, x, y }) => (
           <button
             key={n.id}
-            className="focus-ring absolute h-3 w-3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold-bright shadow-gold hover:h-4 hover:w-4"
+            className={`focus-ring absolute -translate-x-1/2 -translate-y-1/2 rounded-full shadow-gold hover:h-4 hover:w-4 ${
+              highlightRasi && n.rasi === highlightRasi ? "h-4 w-4 bg-gold" : "h-3 w-3 bg-gold-bright"
+            } ${highlightRasi && n.rasi !== highlightRasi ? "opacity-40" : ""}`}
             style={{ left: `${x}%`, top: `${y}%` }}
             onClick={() => setActive(n)}
             aria-label={isTa ? n.ta : n.en}
@@ -34,7 +36,7 @@ export function NakshatraMap() {
           />
         ))}
       </div>
-      <div className="card-metal rounded-3xl p-6">
+      <div className="card-metal rounded-3xl p-4 sm:p-6">
         {active ? (
           <>
             <h3 className="tamil-serif text-2xl text-gold-bright">{isTa ? active.ta : active.en}</h3>

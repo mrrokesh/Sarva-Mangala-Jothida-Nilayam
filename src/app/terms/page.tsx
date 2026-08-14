@@ -6,7 +6,7 @@ import { useLang } from "@/context/LanguageContext";
 export default function TermsPage() {
   const { isTa, t } = useLang();
   return (
-    <div className="pt-28">
+    <div className="pt-24 sm:pt-28">
       <Section title={isTa ? "விதிமுறைகள்" : "Terms"}>
         <div className="mx-auto max-w-3xl space-y-4 text-sm leading-relaxed text-ivory/80">
           <p>{t("disclaimer")}</p>

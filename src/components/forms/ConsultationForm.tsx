@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Calendar, Clock, Mail, MapPin, MessageCircle, Phone, User } from "lucide-react";
 import { CONSULTATION_MODES, CONSULTATION_TYPES } from "@/lib/services";
 import { useLang } from "@/context/LanguageContext";
 import { GoldButton } from "@/components/ui/Chrome";
@@ -48,36 +49,37 @@ export function ConsultationForm() {
     );
   }
 
-  const field = "focus-ring w-full rounded-xl border border-gold/25 bg-ink/50 px-3 py-2 text-sm text-ivory";
-  const label = "mb-1 block text-xs text-ivory/70";
+  const field = "focus-ring w-full rounded-xl border border-gold/25 bg-white px-3 py-2 text-sm text-ivory";
+  const label = "mb-1 flex items-center gap-1.5 text-xs text-ivory/70";
+  const iconCls = "text-gold-bright";
 
   return (
-    <form onSubmit={onSubmit} className="card-metal space-y-8 rounded-3xl p-6 sm:p-8">
+    <form onSubmit={onSubmit} className="card-metal space-y-8 rounded-3xl p-4 sm:p-6 lg:p-8">
       <fieldset>
         <legend className="tamil-serif mb-4 text-lg text-gold-bright">{t("personal")}</legend>
         <div className="grid gap-4 sm:grid-cols-2">
           <p>
-            <label className={label} htmlFor="name">{t("name")}</label>
+            <label className={label} htmlFor="name"><User size={13} className={iconCls} />{t("name")}</label>
             <input id="name" name="name" required className={field} />
           </p>
           <p>
-            <label className={label} htmlFor="mobile">{t("mobile")}</label>
+            <label className={label} htmlFor="mobile"><Phone size={13} className={iconCls} />{t("mobile")}</label>
             <input id="mobile" name="mobile" required inputMode="tel" className={field} />
           </p>
           <p>
-            <label className={label} htmlFor="whatsapp">{t("waNumber")}</label>
+            <label className={label} htmlFor="whatsapp"><MessageCircle size={13} className={iconCls} />{t("waNumber")}</label>
             <input id="whatsapp" name="whatsapp" inputMode="tel" className={field} />
           </p>
           <p>
-            <label className={label} htmlFor="email">{t("email")}</label>
+            <label className={label} htmlFor="email"><Mail size={13} className={iconCls} />{t("email")}</label>
             <input id="email" name="email" type="email" className={field} />
           </p>
           <p>
-            <label className={label} htmlFor="city">{t("city")}</label>
+            <label className={label} htmlFor="city"><MapPin size={13} className={iconCls} />{t("city")}</label>
             <input id="city" name="city" className={field} />
           </p>
           <p>
-            <label className={label} htmlFor="country">{t("country")}</label>
+            <label className={label} htmlFor="country"><MapPin size={13} className={iconCls} />{t("country")}</label>
             <input id="country" name="country" defaultValue="India" className={field} />
           </p>
         </div>
@@ -86,15 +88,15 @@ export function ConsultationForm() {
         <legend className="tamil-serif mb-4 text-lg text-gold-bright">{t("birth")}</legend>
         <div className="grid gap-4 sm:grid-cols-3">
           <p>
-            <label className={label} htmlFor="dob">{t("dob")}</label>
+            <label className={label} htmlFor="dob"><Calendar size={13} className={iconCls} />{t("dob")}</label>
             <input id="dob" name="dob" type="date" className={field} />
           </p>
           <p>
-            <label className={label} htmlFor="tob">{t("tob")}</label>
+            <label className={label} htmlFor="tob"><Clock size={13} className={iconCls} />{t("tob")}</label>
             <input id="tob" name="tob" type="time" className={field} />
           </p>
           <p>
-            <label className={label} htmlFor="pob">{t("pob")}</label>
+            <label className={label} htmlFor="pob"><MapPin size={13} className={iconCls} />{t("pob")}</label>
             <input id="pob" name="pob" className={field} />
           </p>
         </div>

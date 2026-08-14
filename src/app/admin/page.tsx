@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { RASIS } from "@/lib/rasis";
 import type { SiteContent } from "@/lib/cms";
-import type { PeriodType } from "@/lib/rasipalan";
+import { PERIODS, type PeriodType } from "@/lib/rasipalan";
 
 export default function AdminPage() {
   const [authed, setAuthed] = useState(false);
@@ -76,7 +76,7 @@ export default function AdminPage() {
   );
 
   return (
-    <div className="mx-auto max-w-5xl space-y-8 px-4 pt-28 pb-16">
+    <div className="mx-auto max-w-5xl space-y-8 px-4 pt-24 pb-16 sm:pt-28">
       <h1 className="tamil-serif text-3xl text-gold-bright">நிர்வாகம் / Admin</h1>
       {msg && <p className="text-cyan">{msg}</p>}
       {content && (
@@ -94,7 +94,10 @@ export default function AdminPage() {
             </div>
           </section>
           <section className="card-metal rounded-3xl p-5 space-y-3">
-            <h2 className="text-gold-bright">Rasipalan CMS</h2>
+            <h2 className="text-gold-bright">Rasipalan CMS (fallback only)</h2>
+            <p className="text-xs text-ivory/60">
+              The public page loads live daily / weekly / monthly / yearly rasipalan from a free horoscope API. These CMS fields are used only if that live feed is unavailable.
+            </p>
             <div className="flex flex-wrap gap-2">
               {RASIS.map((r) => (
                 <button key={r.id} onClick={() => setRasi(r.id)} className={`rounded-full px-3 py-1 text-xs ${rasi === r.id ? "bg-gold text-ink" : "border border-gold/30"}`}>
@@ -103,7 +106,7 @@ export default function AdminPage() {
               ))}
             </div>
             <div className="flex gap-2">
-              {(["daily", "weekly", "monthly"] as PeriodType[]).map((p) => (
+              {PERIODS.map((p) => (
                 <button key={p} onClick={() => setPeriod(p)} className={`rounded-full px-3 py-1 text-xs ${period === p ? "bg-cyan text-ink" : "border border-cyan/30"}`}>
                   {p}
                 </button>
@@ -128,10 +131,15 @@ export default function AdminPage() {
       <section className="card-metal rounded-3xl p-5">
         <h2 className="text-gold-bright">Consultations → Vibeo inbox log</h2>
         <div className="mt-3 space-y-3 text-sm">
-          {(consults as { id: string; name: string; mobile: string; createdAt: string; consultationType?: string }[]).map((c) => (
+          {(consults as { id: string; name: string; mobile: string; createdAt: string; consultationType?: string; matching?: { bride?: { name?: string }; groom?: { name?: string } } }[]).map((c) => (
             <div key={c.id} className="rounded-xl border border-gold/15 p-3">
               <p className="text-gold-bright">{c.name} · {c.mobile}</p>
               <p className="text-ivory/60">{c.consultationType} · {c.createdAt}</p>
+              {c.matching?.bride?.name && (
+                <p className="text-ivory/70">
+                  {c.matching.bride.name} · {c.matching.groom?.name}
+                </p>
+              )}
             </div>
           ))}
         </div>

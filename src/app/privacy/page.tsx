@@ -7,7 +7,7 @@ import { SITE } from "@/lib/site";
 export default function PrivacyPage() {
   const { isTa } = useLang();
   return (
-    <div className="pt-28">
+    <div className="pt-24 sm:pt-28">
       <Section title={isTa ? "தனியுரிமைக் கொள்கை" : "Privacy Policy"}>
         <div className="mx-auto max-w-3xl space-y-4 text-sm leading-relaxed text-ivory/80">
           <p>

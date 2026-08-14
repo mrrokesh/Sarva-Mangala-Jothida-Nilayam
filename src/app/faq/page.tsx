@@ -16,7 +16,7 @@ export default function FaqPage() {
     })),
   };
   return (
-    <div className="pt-28">
+    <div className="pt-24 sm:pt-28">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(json) }} />
       <Section title={t("faq")}>
         <div className="mx-auto max-w-3xl space-y-4">

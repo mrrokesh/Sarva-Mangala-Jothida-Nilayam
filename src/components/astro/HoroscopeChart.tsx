@@ -26,7 +26,7 @@ export function HoroscopeChart() {
   return (
     <div className="grid items-center gap-8 lg:grid-cols-2">
       <div className="relative mx-auto aspect-square w-full max-w-md">
-        <div className="grid h-full w-full grid-cols-4 grid-rows-4 overflow-hidden rounded-xl border border-gold/50 bg-[#1a1408] text-[11px] text-gold-bright">
+        <div className="grid h-full w-full grid-cols-4 grid-rows-4 overflow-hidden rounded-xl border border-gold/50 bg-ink text-[11px] text-gold-bright">
           {[
             [12, 1, 2, 3],
             [11, null, null, 4],

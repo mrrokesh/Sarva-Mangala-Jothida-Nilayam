@@ -13,7 +13,16 @@ export type ConsultationPayload = {
   consultationType?: string;
   consultationMode?: string;
   message?: string;
+  matching?: {
+    bride?: { name?: string; dob?: string; tob?: string; pob?: string };
+    groom?: { name?: string; dob?: string; tob?: string; pob?: string };
+  };
 };
+
+function personLine(labelTa: string, labelEn: string, p?: { name?: string; dob?: string; tob?: string; pob?: string }) {
+  if (!p?.name) return "";
+  return `${labelTa} / ${labelEn}: ${p.name} · ${p.dob || ""} · ${p.tob || ""} · ${p.pob || ""}`;
+}
 
 export function formatVibeoMessage(p: ConsultationPayload) {
   return [
@@ -31,6 +40,8 @@ export function formatVibeoMessage(p: ConsultationPayload) {
     p.pob ? `பிறந்த இடம் / POB: ${p.pob}` : "",
     p.consultationType ? `வகை / Type: ${p.consultationType}` : "",
     p.consultationMode ? `முறை / Mode: ${p.consultationMode}` : "",
+    personLine("மணமகள்", "Bride", p.matching?.bride),
+    personLine("மணமகன்", "Groom", p.matching?.groom),
     p.message ? `கேள்வி / Message:\n${p.message}` : "",
   ]
     .filter(Boolean)

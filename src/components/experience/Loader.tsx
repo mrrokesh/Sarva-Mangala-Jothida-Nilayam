@@ -25,11 +25,13 @@ export function Loader() {
       role="status"
       aria-live="polite"
     >
-      <div className="relative flex h-44 w-44 items-center justify-center">
-        <img src={SITE.images.zodiac} alt="" className="spin-slow absolute inset-0 h-full w-full object-contain opacity-90" />
-        <span className="tamil-serif gold-text relative text-6xl">ஓம்</span>
+      <div className="relative h-56 w-56 sm:h-72 sm:w-72">
+        <img src={SITE.images.zodiac} alt="" className="spin-slow pointer-events-none absolute inset-0 h-full w-full object-contain" />
+        <div className="absolute inset-[31%] z-10 flex items-center justify-center">
+          <img src={SITE.images.om} alt="ஓம்" className="h-[78%] w-[78%] object-contain" />
+        </div>
       </div>
-      <p className="tamil-serif mt-8 text-center text-lg text-gold-bright sm:text-2xl">{SITE.nameTa}</p>
+      <p className="tamil-serif mt-8 px-4 text-center text-base text-gold-bright sm:text-2xl">{SITE.nameTa}</p>
       <p className="mt-1 font-display text-xs tracking-[0.25em] text-ivory/60">{SITE.nameEn}</p>
     </div>
   );

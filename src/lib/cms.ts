@@ -55,7 +55,12 @@ export async function readContent(): Promise<SiteContent> {
     ...base,
     ...parsed,
     profile: { ...base.profile, ...parsed.profile },
-    rasipalan: { ...base.rasipalan, ...parsed.rasipalan },
+    rasipalan: Object.fromEntries(
+      Object.keys(base.rasipalan).map((id) => [
+        id,
+        { ...base.rasipalan[id], ...(parsed.rasipalan?.[id] || {}) },
+      ]),
+    ),
   };
 }
 
@@ -81,6 +86,10 @@ export type ConsultationRecord = {
   consultationType?: string;
   consultationMode?: string;
   message?: string;
+  matching?: {
+    bride?: { name?: string; dob?: string; tob?: string; pob?: string };
+    groom?: { name?: string; dob?: string; tob?: string; pob?: string };
+  };
   vibeo?: { ok: boolean; skipped?: boolean; reason?: string };
 };
 

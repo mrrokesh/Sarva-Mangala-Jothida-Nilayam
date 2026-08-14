@@ -16,7 +16,15 @@ export function telLink(phone: string) {
 }
 
 export function formatPhone(phone: string) {
-  const d = phone.replace(/\D/g, "");
-  if (d.length === 10) return `${d.slice(0, 5)} ${d.slice(5)}`;
-  return phone;
+  const d = phone.replace(/\D/g, "").replace(/^91/, "");
+  if (d.length === 10) return `+91 ${d.slice(0, 5)} ${d.slice(5)}`;
+  return `+91 ${phone}`;
+}
+
+export function isNavActive(pathname: string, href: string) {
+  const path = href.split("#")[0] || "/";
+  if (path === "/") return pathname === "/";
+  if (path === "/rasipalan") return pathname === "/rasipalan" || pathname === "/rasis" || pathname === "/nakshatras";
+  if (path === "/about") return pathname === "/about" || pathname === "/gallery";
+  return pathname === path || pathname.startsWith(`${path}/`);
 }

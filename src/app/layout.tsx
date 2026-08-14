@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cinzel, Inter, Noto_Sans_Tamil, Noto_Serif_Tamil, Playfair_Display } from "next/font/google";
 import { Providers } from "@/components/layout/Providers";
 import { SITE } from "@/lib/site";
@@ -40,6 +40,12 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+};
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -71,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="ta" className={`${tamil.variable} ${tamilSerif.variable} ${cinzel.variable} ${playfair.variable} ${inter.variable}`}>
-      <body className="min-h-screen bg-ink pb-16 md:pb-0">
+      <body className="min-h-screen bg-ink pb-[5.25rem] md:pb-0">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Providers>
           <main id="main">{children}</main>

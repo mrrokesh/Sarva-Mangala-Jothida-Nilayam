@@ -44,7 +44,7 @@ export function Starfield({ density = 90 }: { density?: number }) {
           if (st.a > 1 || st.a < 0.15) st.s *= -1;
         }
         ctx.beginPath();
-        ctx.fillStyle = `rgba(244, 208, 111, ${st.a})`;
+        ctx.fillStyle = `rgba(139, 74, 22, ${st.a * 0.45})`;
         ctx.arc(st.x, st.y, st.r * devicePixelRatio, 0, Math.PI * 2);
         ctx.fill();
       }
