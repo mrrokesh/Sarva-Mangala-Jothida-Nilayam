@@ -9,6 +9,11 @@
   --night: #f4ebe0;
   --ink: #fffcf8;
   --ivory: #3d2a1c;
+  --font-tamil: "Noto Sans Tamil";
+  --font-tamil-serif: "Noto Serif Tamil";
+  --font-cinzel: "Cinzel";
+  --font-playfair: "Playfair Display";
+  --font-inter: "Inter";
 }
 
 html {

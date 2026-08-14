@@ -1,14 +1,21 @@
 import type { Metadata, Viewport } from "next";
-import { Cinzel, Inter, Noto_Sans_Tamil, Noto_Serif_Tamil, Playfair_Display } from "next/font/google";
 import { Providers } from "@/components/layout/Providers";
 import { SITE } from "@/lib/site";
 import "./globals.css";
-
-const tamil = Noto_Sans_Tamil({ subsets: ["tamil"], variable: "--font-tamil", display: "swap" });
-const tamilSerif = Noto_Serif_Tamil({ subsets: ["tamil"], weight: ["400", "700"], variable: "--font-tamil-serif", display: "swap" });
-const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel", display: "swap" });
-const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair", display: "swap" });
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
+import "@fontsource/noto-sans-tamil/tamil-400.css";
+import "@fontsource/noto-sans-tamil/tamil-700.css";
+import "@fontsource/noto-sans-tamil/latin-400.css";
+import "@fontsource/noto-sans-tamil/latin-700.css";
+import "@fontsource/noto-serif-tamil/tamil-400.css";
+import "@fontsource/noto-serif-tamil/tamil-700.css";
+import "@fontsource/noto-serif-tamil/latin-400.css";
+import "@fontsource/noto-serif-tamil/latin-700.css";
+import "@fontsource/cinzel/latin-400.css";
+import "@fontsource/cinzel/latin-700.css";
+import "@fontsource/playfair-display/latin-400.css";
+import "@fontsource/playfair-display/latin-700.css";
+import "@fontsource/inter/latin-400.css";
+import "@fontsource/inter/latin-600.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"),
@@ -76,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   };
 
   return (
-    <html lang="ta" className={`${tamil.variable} ${tamilSerif.variable} ${cinzel.variable} ${playfair.variable} ${inter.variable}`}>
+    <html lang="ta">
       <body className="min-h-screen bg-ink pb-[5.25rem] md:pb-0">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Providers>
